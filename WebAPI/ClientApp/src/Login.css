@@ -1,0 +1,23 @@
+.password {
+    display: flex;
+    margin: 1em;
+    flex-direction: column;
+    width: 15%;
+}
+
+.login {
+    display: flex;
+    margin: 1em;
+    flex-direction: column;
+    width: 15%;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.disabledDiv {
+    display: none;
+}

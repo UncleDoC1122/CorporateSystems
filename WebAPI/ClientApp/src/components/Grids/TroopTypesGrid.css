@@ -1,0 +1,51 @@
+.grid {
+    /*border: 2px solid rgb(18, 116, 173);*/
+    align-items: flex-end;
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination {
+    border: 2px solid rgb(140, 189, 218);
+    border-radius: 5px;
+    padding: 0 1em 0 1em;
+    flex-direction: row;
+    display: flex;
+    margin: 1em 2em 1em 2em;
+    flex-wrap: wrap;
+}
+
+.button {
+    font-size: 1.3em;
+    margin: 0.2em;
+    padding: 0 0.5em 0 0.5em;
+    border: 1px solid rgb(18, 116, 173);
+}
+
+.grid .header {
+    align-self: flex-start;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: baseline;
+    align-self: flex-start;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.filter {
+    margin: 0 2em 0 0;
+}
+
+.filtersButton {
+    margin: 1em;
+    line-height: 300%;
+    border-radius: 1em;
+    border-color: rgb(122, 122, 122);
+}
